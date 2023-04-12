@@ -4,7 +4,7 @@ declare(strict_types = 1);
 class Account {
     public    int    $number;
     public    string $type;
-    protected float  $balance;
+    private   float  $balance;
 
     public function __construct(int $number, string $type, float $balance = 0.00)
     {
