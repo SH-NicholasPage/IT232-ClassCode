@@ -1,0 +1,21 @@
+body, html
+{
+    font-size: 32px;
+}
+
+#calculator
+{
+    margin: 1rem;
+}
+
+input[type="number"]
+{
+    width: 10%;
+    min-width: 250px;
+}
+
+select
+{
+    width: 15% !important;
+    min-width: 300px;
+}

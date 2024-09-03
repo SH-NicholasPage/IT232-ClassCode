@@ -1,0 +1,8 @@
+1) Write all of the HTML first
+--- DO NOT DO BOOTSTRAP. OMIT ALL CLASSES
+--- DO NOT DO THE EXPONENT ONE. HAVE STUDENTS DO IT
+2) Write all of the CSS next
+3) Write all of the PHP last
+--- Click "Add new" and choose "Built-in PHP Server".
+4) Add Bootstrap stuff in last.
+5) Have students do the exponent dropdown.
