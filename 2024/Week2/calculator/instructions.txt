@@ -4,5 +4,6 @@
 2) Write all of the CSS next
 3) Write all of the PHP last
 --- Click "Add new" and choose "Built-in PHP Server".
+--- PORT MUST BE 63345!
 4) Add Bootstrap stuff in last.
 5) Have students do the exponent dropdown.

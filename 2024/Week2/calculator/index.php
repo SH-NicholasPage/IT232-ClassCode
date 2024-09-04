@@ -95,7 +95,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
                 </select>
             </div>
 
-            <input type="submit" value="Calculate" class="btn btn-primary mt-3">
+            <input type="submit" value="Calculate"
+                   class="btn btn-primary mt-3">
         </form>
 
         <?php if ($result !== ''): ?>
