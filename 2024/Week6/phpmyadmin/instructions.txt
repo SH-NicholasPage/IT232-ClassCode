@@ -4,15 +4,16 @@
 3) Extract the zip.
 4) Copy the extracted directory to the project.
 5) Rename the directory to just phpMyAdmin.
-6) Go to config.sample.inc.php and change the blowfish_secret value to a random value.
+6) Make a copy of config.sample.inc.php and call it config.inc.php
+7) Open config.inc.php and change the blowfish_secret value to a random value.
 -Use this website: https://randomkeygen.com/
 -Grab a "Fort Knox" password.
-7) Create a new PHP Built-in Web Server run configuration
+8) Create a new PHP Built-in Web Server run configuration
 -Use port 63345!!
-8) Find the php.ini file for the installed PHP instance.
-9) Find this line: extension=mysqli
-10) Uncomment it and add the following line
+9) Find the php.ini file for the installed PHP instance.
+10) Find this line: extension=mysqli
+11) Uncomment it and add the following line
  extension=mbstring
-11) Create the index.php file
-12) Navigate to http://localhost:63345/phpmyadmin/index.php
-13) Enter database credentials
+12) Create the index.php file
+13) Navigate to http://localhost:63345/phpmyadmin/index.php
+14) Enter database credentials
