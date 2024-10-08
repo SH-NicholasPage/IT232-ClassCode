@@ -11,9 +11,10 @@
 8) Create a new PHP Built-in Web Server run configuration
 -Use port 63345!!
 9) Find the php.ini file for the installed PHP instance.
+-Run the command "php --ini" to find where it is at.
 10) Find this line: extension=mysqli
-11) Uncomment it and add the following line
- extension=mbstring
+11) Uncomment it
 12) Create the index.php file
 13) Navigate to http://localhost:63345/phpmyadmin/index.php
 14) Enter database credentials
+-If the error "mysqli::real_connect(): (HY000/2002): No such file or directory" appears, try changing the host in config.inc.php from "localhost" to "127.0.0.1".
